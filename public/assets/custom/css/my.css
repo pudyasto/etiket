@@ -1,0 +1,196 @@
+/*
+***************************************************************
+Script : my.css
+Version : 
+Date : Feb 22, 2018 - 3:52:57 PM
+Author : Pudyasto Adi W.
+Email : mr.pudyasto@gmail.com
+Description : 
+***************************************************************
+*/
+/* 
+    Created on : Feb 22, 2018, 3:52:57 PM
+    Author     : pudyasto
+*/
+
+.text-footer{
+    padding-top: 35px;
+}
+
+/*
+    Datatable Start
+*/
+table{
+    width: 100% !important;
+    min-width: 300px !important;
+}
+
+table.dataTable{
+    border-collapse: collapse !important;
+    /*    min-width: 100% !important;*/
+}
+
+table.dataTable>thead>tr{
+    color: #000;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 5px 5px !important;
+    border-bottom: 0px solid #111;
+}
+
+.table-bordered {
+    border: 1px solid #c2cfd6;
+}
+
+.dataTables_length .form-control{
+    border: none;
+    border-bottom: 1px solid #c2cfd6;
+}
+
+.dataTables_length .form-control:focus{
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.form-datatable{
+    border: 1px solid #c2cfd6;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+.dataTables_info{
+    color: #a4b7c1;
+}
+
+.table-responsive .container-fluid{
+    padding: 0px;
+}
+
+.dataTables_length>label>select{
+    height: auto !important;
+    padding: 0px !important;
+    width: 50px !important;
+}
+/*
+    Datatable End
+*/
+
+.breadcrumb {
+    border-radius: 0px;
+}
+
+.app-header.navbar .navbar-brand {
+    height: 50px;
+    border-bottom: none;
+}
+
+.app-header.navbar {
+
+}
+
+.app-header.navbar .nav-item {
+    padding-right: 10px;
+}
+
+.dropdown-menu{
+    border-radius: 0px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.main .container-fluid {
+    padding-top: 1.5rem;
+}
+
+.btn-add{
+    background-color: #3da9d8 !important;
+    color: #fff !important;
+}
+
+.modal-content {
+    border-radius: 0px !important;
+}
+
+.datepicker.dropdown-menu{
+    border-radius: 0px;
+}
+
+.datepicker table tr td, .datepicker table tr th{
+    border-radius: 0px;
+}
+
+/*select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  box-shadow: none !important;
+  outline: 0 none !important;
+}*/
+
+@media (min-width: 992px){
+    .brand-minimized .app-header.navbar .navbar-brand {
+        border-bottom: none;
+    }
+}
+
+td.details-control {
+    background: url('/assets/img/datatable/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('/assets/img/datatable/details_close.png') no-repeat center center;
+}
+
+.datepicker {
+    z-index: 1600 !important; /* has to be larger than 1050 */
+}
+
+.datepicker>table:not(.table-sm):not(.table-md):not(.dataTable) td
+, .datepicker>table:not(.table-sm):not(.table-md):not(.dataTable) th {
+    padding: 0px 0px;
+}
+
+.datepicker tfoot tr th:hover {
+    background: rgba(103, 119, 239, 0.2);
+}
+
+.datepicker table tr td span:hover {
+    background: rgba(103, 119, 239, 0.2);
+}
+
+.datepicker thead tr:first-child th:hover, .datepicker tfoot tr th:hover {
+    background: rgba(103, 119, 239, 0.2);
+}
